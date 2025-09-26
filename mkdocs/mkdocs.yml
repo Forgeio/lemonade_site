@@ -1,2 +1,39 @@
 site_name: Lemonade
-theme: material
+
+theme: 
+  name: material
+  custom_dir: overrides
+  logo: images/logo.png
+  favicon: images/favicon.png
+  features:
+    - navigation.instant
+    - header.autohide
+  palette:
+    primary: green
+    accent: green
+  font:
+    text: Open Sans
+
+markdown_extensions:
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      options:
+        custom_icons:
+          - overrides/.icons
+
+extra:
+  generator: false
+  
+plugins: []
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - Changelog: index.md
+  - Modding Guide:
+    - GML: modding/gml.md
+    - Lua: modding/lua.md
+  - Wiki:
+    - Items: wiki/items.md

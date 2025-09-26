@@ -1,0 +1,647 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../../modding/lua/">
+      
+      
+      
+      <link rel="icon" href="../../images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.19">
+    
+    
+      
+        <title>Items - Lemonade</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.7e37652d.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Open Sans";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="green" data-md-color-accent="green">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#lemonade-items" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Lemonade" class="md-header__button md-logo" aria-label="Lemonade" data-md-component="logo">
+      
+  <img src="../../images/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Lemonade
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Items
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Lemonade" class="md-nav__button md-logo" aria-label="Lemonade" data-md-component="logo">
+      
+  <img src="../../images/logo.png" alt="logo">
+
+    </a>
+    Lemonade
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Changelog
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Modding Guide
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Modding Guide
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../modding/gml/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    GML
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../modding/lua/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Lua
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Wiki
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Wiki
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Items
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Items
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#lemonade-items" class="md-nav__link">
+    <span class="md-ellipsis">
+      Lemonade Items
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Lemonade Items">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#item-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Item 1
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#lemonade-items" class="md-nav__link">
+    <span class="md-ellipsis">
+      Lemonade Items
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Lemonade Items">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#item-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Item 1
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+  <h1>Items</h1>
+
+<h3 id="lemonade-items">Lemonade Items</h3>
+<h4 id="item-1">Item 1</h4>
+<p><a href="/items/stone"><span style="font-size:1.25em"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" shape-rendering="crispEdges">
+<rect x="10" y="0" width="6" height="2" fill="#33272A" />
+<rect x="6" y="2" width="4" height="2" fill="#33272A" />
+<rect x="10" y="2" width="2" height="2" fill="#6E6564" />
+<rect x="12" y="2" width="2" height="10" fill="#807B7A" />
+<rect x="14" y="2" width="2" height="2" fill="#6E6564" />
+<rect x="16" y="2" width="2" height="2" fill="#33272A" />
+<rect x="4" y="4" width="2" height="2" fill="#33272A" />
+<rect x="6" y="4" width="2" height="2" fill="#6E6564" />
+<rect x="8" y="4" width="4" height="2" fill="#807B7A" />
+<rect x="14" y="4" width="2" height="8" fill="#807B7A" />
+<rect x="16" y="4" width="2" height="2" fill="#6E6564" />
+<rect x="18" y="4" width="2" height="4" fill="#33272A" />
+<rect x="2" y="6" width="2" height="2" fill="#33272A" />
+<rect x="4" y="6" width="2" height="2" fill="#6E6564" />
+<rect x="6" y="6" width="2" height="6" fill="#807B7A" />
+<rect x="8" y="6" width="2" height="2" fill="#A69E9A" />
+<rect x="10" y="6" width="2" height="8" fill="#807B7A" />
+<rect x="16" y="6" width="2" height="4" fill="#807B7A" />
+<rect x="0" y="8" width="2" height="4" fill="#33272A" />
+<rect x="2" y="8" width="4" height="2" fill="#807B7A" />
+<rect x="8" y="8" width="2" height="6" fill="#807B7A" />
+<rect x="18" y="8" width="2" height="6" fill="#302929" />
+<rect x="2" y="10" width="2" height="4" fill="#6E6564" />
+<rect x="4" y="10" width="2" height="2" fill="#807B7A" />
+<rect x="16" y="10" width="2" height="4" fill="#6E6564" />
+<rect x="0" y="12" width="2" height="2" fill="#302929" />
+<rect x="4" y="12" width="4" height="2" fill="#6E6564" />
+<rect x="12" y="12" width="4" height="2" fill="#6E6564" />
+<rect x="2" y="14" width="4" height="2" fill="#302929" />
+<rect x="6" y="14" width="8" height="2" fill="#6E6564" />
+<rect x="14" y="14" width="4" height="2" fill="#302929" />
+<rect x="6" y="16" width="8" height="2" fill="#302929" />
+</svg></span></span></a>  <a href="/items/iron"><span style="font-size:1.25em"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8 8" shape-rendering="crispEdges">
+<rect x="2" y="0" width="4" height="1" fill="#33272A" />
+<rect x="1" y="1" width="1" height="1" fill="#33272A" />
+<rect x="2" y="1" width="1" height="1" fill="#BDA499" />
+<rect x="3" y="1" width="2" height="2" fill="#F1EBDB" />
+<rect x="5" y="1" width="1" height="1" fill="#BDA499" />
+<rect x="6" y="1" width="1" height="1" fill="#33272A" />
+<rect x="0" y="2" width="1" height="4" fill="#33272A" />
+<rect x="1" y="2" width="1" height="1" fill="#BDA499" />
+<rect x="2" y="2" width="1" height="2" fill="#F1EBDB" />
+<rect x="5" y="2" width="1" height="3" fill="#DDCEBF" />
+<rect x="6" y="2" width="1" height="1" fill="#F1EBDB" />
+<rect x="7" y="2" width="1" height="4" fill="#33272A" />
+<rect x="1" y="3" width="1" height="1" fill="#F1EBDB" />
+<rect x="3" y="3" width="1" height="1" fill="#F1EBDB" />
+<rect x="4" y="3" width="1" height="3" fill="#DDCEBF" />
+<rect x="6" y="3" width="1" height="1" fill="#DDCEBF" />
+<rect x="1" y="4" width="3" height="1" fill="#DDCEBF" />
+<rect x="6" y="4" width="1" height="1" fill="#BDA499" />
+<rect x="1" y="5" width="1" height="1" fill="#BDA499" />
+<rect x="2" y="5" width="2" height="1" fill="#DDCEBF" />
+<rect x="5" y="5" width="1" height="1" fill="#BDA499" />
+<rect x="6" y="5" width="1" height="1" fill="#886E6A" />
+<rect x="1" y="6" width="1" height="1" fill="#33272A" />
+<rect x="2" y="6" width="3" height="1" fill="#BDA499" />
+<rect x="5" y="6" width="2" height="1" fill="#33272A" />
+<rect x="2" y="7" width="3" height="1" fill="#33272A" />
+</svg></span></span></a>  <a href="/items/blood-sword"><span style="font-size:2em"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" shape-rendering="crispEdges">
+<rect x="13" y="0" width="2" height="1" fill="#1D1A1B" />
+<rect x="12" y="1" width="1" height="1" fill="#1D1A1B" />
+<rect x="13" y="1" width="1" height="1" fill="#90202C" />
+<rect x="14" y="1" width="1" height="5" fill="#1D1A1B" />
+<rect x="11" y="2" width="1" height="1" fill="#1D1A1B" />
+<rect x="12" y="2" width="1" height="1" fill="#90202C" />
+<rect x="13" y="2" width="1" height="1" fill="#AD3D46" />
+<rect x="10" y="3" width="1" height="1" fill="#1D1A1B" />
+<rect x="11" y="3" width="1" height="1" fill="#9D2C34" />
+<rect x="12" y="3" width="1" height="1" fill="#AD3D46" />
+<rect x="13" y="3" width="1" height="1" fill="#71131D" />
+<rect x="9" y="4" width="1" height="1" fill="#1D1A1B" />
+<rect x="10" y="4" width="1" height="1" fill="#90202C" />
+<rect x="11" y="4" width="1" height="1" fill="#C94D56" />
+<rect x="12" y="4" width="1" height="1" fill="#71131D" />
+<rect x="13" y="4" width="1" height="1" fill="#821521" />
+<rect x="8" y="5" width="1" height="1" fill="#1D1A1B" />
+<rect x="9" y="5" width="1" height="1" fill="#90202C" />
+<rect x="10" y="5" width="1" height="1" fill="#AD3D46" />
+<rect x="11" y="5" width="1" height="1" fill="#71131D" />
+<rect x="12" y="5" width="1" height="1" fill="#821521" />
+<rect x="13" y="5" width="1" height="1" fill="#71131D" />
+<rect x="4" y="6" width="1" height="1" fill="#1D1A1B" />
+<rect x="7" y="6" width="1" height="1" fill="#1D1A1B" />
+<rect x="8" y="6" width="1" height="1" fill="#90202C" />
+<rect x="9" y="6" width="1" height="1" fill="#AD3D46" />
+<rect x="10" y="6" width="1" height="1" fill="#90202C" />
+<rect x="11" y="6" width="1" height="1" fill="#821521" />
+<rect x="12" y="6" width="1" height="1" fill="#71131D" />
+<rect x="13" y="6" width="1" height="1" fill="#1D1A1B" />
+<rect x="3" y="7" width="1" height="3" fill="#1D1A1B" />
+<rect x="4" y="7" width="1" height="1" fill="#5A4B49" />
+<rect x="5" y="7" width="2" height="1" fill="#1D1A1B" />
+<rect x="7" y="7" width="1" height="3" fill="#90202C" />
+<rect x="8" y="7" width="1" height="1" fill="#AD3D46" />
+<rect x="9" y="7" width="1" height="1" fill="#90202C" />
+<rect x="10" y="7" width="1" height="1" fill="#821521" />
+<rect x="11" y="7" width="1" height="1" fill="#71131D" />
+<rect x="12" y="7" width="1" height="1" fill="#1D1A1B" />
+<rect x="4" y="8" width="1" height="1" fill="#433937" />
+<rect x="5" y="8" width="1" height="2" fill="#1D1A1B" />
+<rect x="6" y="8" width="1" height="2" fill="#90202C" />
+<rect x="8" y="8" width="1" height="1" fill="#90202C" />
+<rect x="9" y="8" width="1" height="1" fill="#821521" />
+<rect x="10" y="8" width="1" height="1" fill="#71131D" />
+<rect x="11" y="8" width="1" height="1" fill="#1D1A1B" />
+<rect x="2" y="9" width="1" height="1" fill="#1D1A1B" />
+<rect x="4" y="9" width="1" height="1" fill="#302A29" />
+<rect x="8" y="9" width="1" height="1" fill="#821521" />
+<rect x="9" y="9" width="1" height="1" fill="#71131D" />
+<rect x="10" y="9" width="1" height="1" fill="#1D1A1B" />
+<rect x="1" y="10" width="1" height="2" fill="#1D1A1B" />
+<rect x="2" y="10" width="1" height="1" fill="#5A4B49" />
+<rect x="3" y="10" width="3" height="1" fill="#433937" />
+<rect x="6" y="10" width="1" height="1" fill="#1D1A1B" />
+<rect x="7" y="10" width="2" height="1" fill="#71131D" />
+<rect x="9" y="10" width="1" height="2" fill="#1D1A1B" />
+<rect x="2" y="11" width="1" height="1" fill="#1D1A1B" />
+<rect x="3" y="11" width="1" height="1" fill="#433937" />
+<rect x="4" y="11" width="1" height="1" fill="#1D1A1B" />
+<rect x="5" y="11" width="2" height="1" fill="#5A4B49" />
+<rect x="7" y="11" width="2" height="1" fill="#1D1A1B" />
+<rect x="3" y="12" width="1" height="1" fill="#1D1A1B" />
+<rect x="4" y="12" width="1" height="1" fill="#433937" />
+<rect x="5" y="12" width="1" height="1" fill="#1D1A1B" />
+<rect x="6" y="12" width="4" height="1" fill="#433937" />
+<rect x="10" y="12" width="1" height="1" fill="#1D1A1B" />
+<rect x="2" y="13" width="1" height="2" fill="#1D1A1B" />
+<rect x="3" y="13" width="1" height="1" fill="#433937" />
+<rect x="4" y="13" width="1" height="1" fill="#1D1A1B" />
+<rect x="5" y="13" width="1" height="1" fill="#5A4B49" />
+<rect x="6" y="13" width="1" height="2" fill="#433937" />
+<rect x="7" y="13" width="3" height="1" fill="#1D1A1B" />
+<rect x="3" y="14" width="1" height="1" fill="#1D1A1B" />
+<rect x="5" y="14" width="1" height="2" fill="#1D1A1B" />
+<rect x="7" y="14" width="1" height="1" fill="#1D1A1B" />
+<rect x="6" y="15" width="1" height="1" fill="#1D1A1B" />
+</svg></span></span></a></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "header.autohide"], "search": "../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.92b07e13.min.js"></script>
+      
+    
+  </body>
+</html>
