@@ -1,3 +1,16 @@
-   .md-typeset {
-      font-size: 0.7rem; /* Adjust this value as needed */
-    }
+.md-typeset {
+   font-size: 0.7rem; /* Adjust this value as needed */
+   }
+
+.md-typeset .twemoji {
+  font-size: 1em;
+  line-height: 1;      
+  vertical-align: middle; 
+}
+
+.md-typeset .twemoji svg {
+  width: 1em;
+  height: 1em;
+  shape-rendering: crispEdges;
+  image-rendering: pixelated;
+}
